@@ -106,5 +106,10 @@ minitel.efface()
 
 while True:
     affiche_videotex('xana.vdt')
-    delay = random.uniform(2, 30)
+    delay = random.uniform(2, 100)
     time.sleep(delay)
+    affiche_videotex('xana.vdt')
+    delay2 = random.uniform(2, 200)
+    time.sleep(delay)
+    minitel.efface()
+    time.sleep(20)
